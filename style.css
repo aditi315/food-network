@@ -1,0 +1,79 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 60px;
+    color:darkslategrey;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    color:darkslategrey;
+    font-size: 50px;
+}
+h4{
+    text-align: center;
+    color:darkslategray;
+    font-size: 30px;
+}
+#recipies-text{
+    display:flex ;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+.orange-color{
+    color: tomato;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 60%;
+   
+}
+.link-button{
+    background-image: linear-gradient(to right,rgb(255, 115, 0),rgb(255, 92, 71));
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.about-me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.recipies-item{
+    width: 50%;
+    margin-left:5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 20px;
+    padding:20px;
+
+}
+.recipies-item img{
+    width: 100%;
+}
+p{
+    font-size: 15px;
+}
+.footer-banner{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 60px;
+    margin:0;
+}
+.footer-text{
+    color: white;
+    text-align: center;
+}
