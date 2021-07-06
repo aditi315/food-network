@@ -84,3 +84,44 @@ p{
     color: white;
     text-align: center;
 }
+ul{
+    text-align:right;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    padding: 15px 20px;
+    background-image: linear-gradient(to right,rgb(255, 115, 0),rgb(255, 92, 71));
+}
+.top-bar{
+    background-color: teal;
+    width: 100%;
+    height:200px;
+    padding-top: 5px;
+
+}
+#top{
+    color: white;
+    text-align: center;
+}
+.search{
+    margin-top: 20px;
+    text-align: center;
+}
+input{
+    border: 3px solid black;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+}
+.search-btn{
+    height: 40px;
+    border: 3px solid black;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+}
